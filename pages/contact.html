@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/pages.css">
+</head>
+
+<body>
+
+    <!-- modal box -->
+    <input type="checkbox" id="show-hide-forms" hidden>
+    <div class="forms-wrapper">
+        <label for="show-hide-forms" class="x-btn">&#10005;</label>
+        <input type="checkbox" id="show-form" hidden>
+        <div class="show-btns-wrapper">
+            <label for="show-form" class="show-form-btn show-signup-form">Sign Up</label>
+            <label for="show-form" class="show-form-btn show-login-form">Log In</label>
+        </div>
+
+        <form class="signup-form">
+            <h3 class="form-heading">Sign Up</h3>
+            <div class="fullname-inputs-wrapper">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Second Name">
+            </div>
+            <input type="text" class="form-input" placeholder="Username">
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="SIGN UP" class="form-btn">
+        </form>
+
+        <form class="login-form">
+            <h3 class="form-heading">Log In</h3>
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="LOG IN" class="form-btn">
+        </form>
+    </div>
+    <!-- end of modal box -->
+
+    <div class="container">
+        <!-- navbar -->
+        <ul class="social-icons">
+            <li class="social-icon-item">
+                <a href="#" class="social-icon-link"><i class="fab fa-facebook-square social-icon"></i></a>
+            </li>
+            <li class="social-icon-item">
+                <a href="#" class="social-icon-link"><i class="fab fa-linkedin social-icon"></i></a>
+            </li>
+            <li class="social-icon-item">
+                <a href="#" class="social-icon-link"><i class="fab fa-twitter-square social-icon"></i></a>
+            </li>
+            <li class="social-icon-item">
+                <a href="#" class="social-icon-link"><i class="fab fa-instagram social-icon"></i></a>
+            </li>
+        </ul>
+
+        <nav class="first-nav">
+            <ul class="first-nav-list">
+                <li class="first-nav-item">
+                    <a href="#" class="first-nav-link"><label for="show-hide-forms"><i
+                                class="fas fa-sign-in-alt"></i>Sign Up | Login </label></a>
+                </li>
+                <li class="first-nav-item">
+                    <a href="#" class="first-nav-link"><i class="fas fa-shopping-cart"></i>Cart
+                        (<span>0 Items</span>)
+                    </a>
+                </li>
+                <li class="first-nav-item">
+                    <a href="#" class="first-nav-link"><i class="fas fa-truck"></i>Welcome
+                        (<span>User</span>)
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="second-nav">
+            <ul class="second-nav-list">
+
+                <li class="second-nav-item">
+                    <a href="/index.html" class="second-nav-link">Home</a>
+                </li>
+                <li class="second-nav-item">
+                    <a href="events.html" class="second-nav-link">Events</a>
+                </li>
+                <li class="second-nav-item">
+                    <a href="blog.html" class="second-nav-link">Blog</a>
+                </li>
+                <li class="second-nav-item">
+                    <a href="gallery.html" class="second-nav-link">Gallery</a>
+                </li>
+                <li class="second-nav-item">
+                    <a href="Sponsorship.html" class="second-nav-link">Sponsorship</a>
+                </li>
+                <li class="second-nav-item">
+                    <a href="contact.html" class="active second-nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- end of navbar -->
+
+
+        <!-- contact -->
+        <section class="contact">
+            <h1 class="contact-heading">Join us and be in the know</h1>
+            <form class="contact-form">
+                <input type="text" class="contact-input" placeholder="Enter email address">
+                <input type="submit" class="contact-btn" value="Sign Up">
+            </form>
+        </section>
+        <!-- end of contact -->
+
+
+        <!-- Main Content -->
+        <!-- banner -->
+        <section class="banner">
+            <div class="banner-content">
+                <!-- <h1 class="banner-heading">Great Sale</h1> -->
+                <!-- <button class="banner-btn"> -->
+                <!-- <span class="banner-btn-text-one">Shop Now</span>
+                        <span class="banner-btn-text-two">It's Interesting</span> -->
+                <!-- </button> -->
+            </div>
+
+            <div class="slideshow">
+                <button class="slide-btn slide-btn-1"></button>
+                <button class="slide-btn slide-btn-2"></button>
+                <button class="slide-btn slide-btn-3"></button>
+                <button class="slide-btn slide-btn-4"></button>
+                <div class="slideshow-wrapper">
+                    <div class="slide">
+                        <img src="/images/slide-img-1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/images/slide-img-2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/images/slide-img-3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/images/slide-img-4.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/images/slide-img-5.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="/images/slide-img-6.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of banner -->
+        <!-- End Main Content -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <p>&copy; CodeAndCreate. All rights reserved</p>
+        </footer>
+        <!-- end of footer -->
+    </div>
+</body>
+
+</html>
